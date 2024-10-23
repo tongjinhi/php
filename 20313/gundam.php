@@ -22,7 +22,7 @@
             <tr><td>이미지</td>
                 <td><input type="text" size="100" name="image" placeholder="이미지"> </td></tr>
         </table>
-        <input type="submit" value="가입하기"/>
+        <input type="submit" value="입력하기"/>
         <input type="reset" value="다시쓰기"/>
         </fieldset>
         </form>
