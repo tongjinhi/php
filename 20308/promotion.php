@@ -10,7 +10,7 @@
         <fieldset><legend>입력사항</legend>
         <table>
             <tr><td>프로젝트 명</td>
-                <td><input type="text" size="35" name="fproject_name" placeholder="프로젝트 명"> </td></tr>
+                <td><input type="text" size="35" name="fproject_name" placeholder="프로젝트 명을 입력해 주세요(ex:ERUSAU)."> </td></tr>
             <tr><td>예산</td>
                 <td><input type="text" size="35" name="fbudget" placeholder="예산"></td></tr>
             <tr><td>회사명</td>
