@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" /><title>회원가입 폼</title>
+        <meta charset="utf-8" /><title>주식시장 입력 폼</title>
     </head>
     <body>
         <form method="post" action="stock_ok.php">
-        <h1>회원가입 폼</h1>
+        <h1>주식시장 입력 폼</h1>
         <fieldset><legend>입력사항</legend>
         <table>
             <tr><td>주식이름</td>
