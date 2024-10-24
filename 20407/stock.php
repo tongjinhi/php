@@ -19,6 +19,8 @@
                 <td><input type="text" size="35" name="fchart" placeholder="주식 차트"> </td></tr>
             <tr><td>제조나라</td>
                 <td><input type="text" size="35" name="fcountry" placeholder="주소"> </td></tr>
+            <tr><td>이미지</td>
+                <td><input type="text" size="35" name="fimage" placeholder="이미지"> </td></tr>
         </table>
         <input type="submit" value="가입하기"/>
         <input type="reset" value="다시쓰기"/>
