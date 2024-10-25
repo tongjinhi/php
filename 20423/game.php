@@ -20,7 +20,7 @@
         <tr><td>연령 제한</td>
             <td><input type="text" size="35" name="frating" placeholder="연령 제한"></td></tr>
         <tr><td>게임 설명</td>
-            <td><input type="text" size="35" name="fexplanation" placeholder="연령 제한"></td></tr>
+            <td><input type="text" size="35" name="fexplanation" placeholder="게임 설명"></td></tr>
         <tr><td>이미지</td>
             <td><input type="text" size="35" name="fimage" placeholder="이미지"></td></tr>
         </table>
