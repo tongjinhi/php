@@ -5,7 +5,7 @@
         <meta charset="utf-8" /><title>대학 학과정보</title>
     </head>
     <body>
-        <form method="post" action="member_ok.php">
+        <form method="post" action="college_ok.php">
         <h1>대학 학과정보   </h1>
         <fieldset><legend>경희대</legend>
         <table>
