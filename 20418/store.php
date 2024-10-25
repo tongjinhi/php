@@ -12,7 +12,7 @@
             <tr><td>품번</td>
                 <td><input type="text" size="35" name="fprod_num" placeholder="품번"> </td></tr>
             <tr><td>품목</td>
-                <td><input type="password" size="35" name="fitem" placeholder="품목"></td></tr>
+                <td><input type="text" size="35" name="fitem" placeholder="품목"></td></tr>
             <tr><td>색상</td>
                 <td><input type="text" size="35" name="fcolor" placeholder="색상"> </td></tr>
             <tr><td>가격</td>
