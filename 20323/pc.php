@@ -22,7 +22,7 @@
             <tr><td>게임 사진.jpg</td>
                 <td><input type="text" size="35" name="fimage" placeholder="게임 사진.jpg"> </td></tr>
         </table>
-        <input type="submit" value="가입하기"/>
+        <input type="submit" value="입력하기"/>
         <input type="reset" value="다시쓰기"/>
         </fieldset>
         </form>
