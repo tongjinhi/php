@@ -14,7 +14,7 @@
             <td><input type="text" size="35" name="fname" placeholder="게임 이름">
             </td></tr>
         <tr><td>출시일</td>
-            <td><input type="password" size="35" name="fp_date" placeholder="출시일"></td></tr>
+            <td><input type="text" size="35" name="fp_date" placeholder="출시일"></td></tr>
         <tr><td>장르</td>
             <td><input type="text" size="35" name="fgenre" placeholder="장르"></td></tr>
         <tr><td>연령 제한</td>
