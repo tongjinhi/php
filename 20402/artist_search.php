@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8/">
-        <link type="text/css" rel="stylesheet" href="artistsearch.css">
+        <link type="text/css" rel="stylesheet" href="../book.css">
     </head>
     <body>
         <h1>아티스트 검색</h1>
