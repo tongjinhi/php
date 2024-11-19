@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8" />
-    <link type="text/css" rel="stylesheet" href="book.css">
+    <link type="text/css" rel="stylesheet" href="../book.css">
 </head>
 <body>
     <h1>게임 검색</h1>
