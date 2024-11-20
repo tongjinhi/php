@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 24-10-21 02:49
--- 서버 버전: 10.4.32-MariaDB
--- PHP 버전: 8.2.12
+-- 생성 시간: 24-11-20 03:40
+-- 서버 버전: 10.4.27-MariaDB
+-- PHP 버전: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,11 @@ CREATE TABLE `20323_pc_re` (
 --
 
 INSERT INTO `20323_pc_re` (`game`, `goal`, `performance`, `cpu_br`, `pc_price`, `image`) VALUES
-('오버워치', '게임용', '중', '인텔', 800000, '오버워치 사진.jpg');
+('로블록스', '게임용', '중', '라이젠', 800000, '로블록스.jpg'),
+('마인크래프트', '게임용', '하', '인텔', 500000, '마인크래프트.jpg'),
+('발로란트', '게임용', '중', '인텔', 750000, '발로란트.jpg'),
+('베스테리아', '게임', '상', '라이젠', 900000, '베스테리아.jpg'),
+('오버워치', '게임용', '중', '인텔', 800000, '오버워치.jpg');
 
 --
 -- 덤프된 테이블의 인덱스
