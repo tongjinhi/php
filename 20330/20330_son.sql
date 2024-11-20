@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 24-10-21 02:53
--- 서버 버전: 10.4.32-MariaDB
--- PHP 버전: 8.2.12
+-- 생성 시간: 24-11-20 03:35
+-- 서버 버전: 10.4.27-MariaDB
+-- PHP 버전: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,11 @@ CREATE TABLE `20330_son` (
 --
 
 INSERT INTO `20330_son` (`name`, `team`, `age`, `league`, `nationily`, `image`) VALUES
-('손흥민', '토트넘 핫스퍼', '32', '프리미어리그', '대한민국', 'son.jpg');
+('리오넬 메시', '인터마이애미', '37', '메이저 리그 사커', '아르헨티나', 'messi.jpg'),
+('손흥민', '토트넘 핫스퍼', '32', '프리미어리그', '대한민국', 'son.jpg'),
+('양민혁', '토트넘 핫스퍼', '18', '프리미어리그', '대한민국', 'ymh.jpg'),
+('이강인', '파리생제르맹', '23', '리그앙 1', '대한민국', 'lgi.jpg'),
+('황희찬', '울버햄튼', '28', '프리미어리그', '대한민국', 'hhc.jpg');
 
 --
 -- 덤프된 테이블의 인덱스
