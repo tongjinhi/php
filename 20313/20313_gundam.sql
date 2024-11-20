@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 24-10-21 02:39
--- 서버 버전: 10.4.32-MariaDB
--- PHP 버전: 8.2.12
+-- 생성 시간: 24-11-20 03:48
+-- 서버 버전: 10.4.27-MariaDB
+-- PHP 버전: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,11 @@ CREATE TABLE `20313_gundam` (
 --
 
 INSERT INTO `20313_gundam` (`gundam_name`, `lineup`, `tpye`, `meker`, `date`, `image`) VALUES
-('Rx-0 유니콘 건담', 'MGEX', '건담', '반다이', '2020-09-12', 'Rx_0_유니콘건담.jpg');
+('Rx-0 유니콘 건담', 'MGEX', '건담', '반다이', '2020-09-12', 'Rx_0_유니콘건담.jpg'),
+('\r\n가면라이더키바', 'f.g.r', '애니프라', '반다이남코', '2020-07-31', '가면라이더키바.jpg'),
+('\r\n스트라이크건담', 'EG', '건담', '반다이', '2020-07-31', '스트라이크건담EG.jpg'),
+('\r\n스트라이크프리덤', 'MGEX', '건담', '반다이남코', '2022-09-23', '스트라이크프리덤MGEX.jpg'),
+('\r\n한카리아스', '포켓프라', '애니프라', '반다이', '2020-07-31', '포켓프라한카리아스.jpg');
 
 --
 -- 덤프된 테이블의 인덱스
