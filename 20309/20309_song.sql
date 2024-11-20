@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 24-10-21 02:54
--- 서버 버전: 10.4.32-MariaDB
--- PHP 버전: 8.2.12
+-- 생성 시간: 24-11-20 03:35
+-- 서버 버전: 10.4.27-MariaDB
+-- PHP 버전: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,11 @@ CREATE TABLE `20309_song` (
 --
 
 INSERT INTO `20309_song` (`songtitle`, `artist`, `feat`, `range1`, `genre`, `iamge`) VALUES
-('if i got money', '릴러말즈', '크루셜스타,창모', '4분13초', '힙합', '앨범.jpg');
+('Champion Love Song', 'Masiwei', 'RollFlash', '3분39초', '중국힙합', 'CL.jpg'),
+('if i got money', '릴러말즈', '크루셜스타,창모', '4분13초', '힙합', 'igm.jpg'),
+('ITX', '제너더질라', '창모', '3분10초', '힙합', 'ITX.jpg'),
+('북향', '다이나믹듀오', '오혁', '3분43초', '싱잉랩', 'bh.jpg'),
+('하나,둘', '김승민', '펀치', '3분21초', '싱잉랩', 'ot.jpg');
 
 --
 -- 덤프된 테이블의 인덱스
