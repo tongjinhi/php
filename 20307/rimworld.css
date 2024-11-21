@@ -1,0 +1,46 @@
+* {background-color: black;}
+
+#title_img {border-top: solid;
+            border-bottom: solid;
+            border-color: rgb(66,64,63);
+            background-color: rgb(19, 23, 26);
+            text-align: center;
+            width: 100%;
+            }
+
+fieldset {border: none;
+        text-align: center;
+        }
+
+select {color: white;
+        background-color: rgb(66,64,63);
+        text-align: center;
+        font-size: 150%;
+        width: 15%;
+        }
+
+#serch  {color: rgb(66,64,63);
+        background-color: rgb(19, 23, 26);
+        font-size: 150%;
+        width: 60%;
+        }
+
+#serch_submit {color: white;
+            background-color: rgb(66,64,63);
+            font-size: 150%;
+            width: 15%;
+            }
+
+table {text-align: center;
+    background-color: rgb(19, 23, 26);
+
+    color: white;
+    }
+
+#text_img {width: 70%;
+        }
+
+#t_title {background-color: rgb(66,64,63);
+        width: 10%;
+        font-size: 100%;
+        }
