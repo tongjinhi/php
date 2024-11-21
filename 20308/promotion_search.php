@@ -8,7 +8,7 @@
     <body>
         <h1> 홍보물 검색 </h1>
         <div style="text-align: center;">
-            <form action="promotion_search_ok.php" method="POST">
+            <form action="promotion_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="project_name">  프로젝트명 </option>
