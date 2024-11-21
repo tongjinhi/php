@@ -8,7 +8,7 @@
     <body>
         <h1> 경영 뉴스 검색 <h1>
         <div style="text-align: center;">
-            <form action="news_search_ok.php" method="POST">
+            <form action="news_search_ok.php" method="GET">
                 <fieldest>
                     <select name="search_option">
                         <option value="title"> 제목 </option>
