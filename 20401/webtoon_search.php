@@ -8,7 +8,7 @@
     <body>
         <h1> 웹툰 검색 </h1>
         <div style="text-align: center;">
-            <form action="webtoon_search_ok.php" method="POST">
+            <form action="webtoon_search_ok.php" method="GET">
                 <fieldset>
                     <select name = "search_option">
                         <option value="title"> 제목 </option>
