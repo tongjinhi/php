@@ -8,7 +8,7 @@
     <body>
         <h1>여행지 검색</h1>
         <div style="text-alian: center;">
-            <form action="trip_search_ok.php" method="POST">
+            <form action="trip_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="Area">지역명</option>
