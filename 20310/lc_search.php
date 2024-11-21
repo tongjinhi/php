@@ -8,7 +8,7 @@
     <body>
         <h1> 크리쳐 확인 폼 </h1>
         <div style="text-align: center;">
-            <form action="lc_search_ok.php" method="POST">
+            <form action="lc_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="fcreture_name">     크리쳐 이름 </option>
