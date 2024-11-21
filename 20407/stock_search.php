@@ -8,7 +8,7 @@
     <body></body>
         <h1> 주식 검색 </h1>
         <div style="text-align: center;">
-            <form action="main_stock_ok.php" method="POST">
+            <form action="stock_search_ok.php" method="POST">
                 <fieldset>
                     <select name="search_option">
                         <option value="name"> 주식명 </option>
