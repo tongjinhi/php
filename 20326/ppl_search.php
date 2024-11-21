@@ -8,7 +8,7 @@
     <body>
         <h1> 간접광고 단가 표 </h1>
         <div style="text-align: center;">
-            <form action="ppl_search_ok.php" method="POST">
+            <form action="ppl_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="categorization">      분류 </option>
