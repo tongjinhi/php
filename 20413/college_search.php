@@ -8,7 +8,7 @@
     <body>
         <h1> 대학 학과 검색 </h1>
         <div style="text-align: center;">
-            <form action="college_search_ok.php" method="POST">
+            <form action="college_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value = "school_name"> 학교 이름</option>
