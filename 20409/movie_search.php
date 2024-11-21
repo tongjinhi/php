@@ -8,7 +8,7 @@
     <body>
         <h1>영화 검색 </h1>
         <div style="text-align: center;">
-            <form action="movie_search_ok.php" method="POST">
+            <form action="movie_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="movie_name"> 영화이름 </option>
