@@ -6,7 +6,7 @@
 <body>
     <h1>게임 검색</h1>
     <div style="text-align: center;">
-        <form action="game_search_ok.php" method="POST">
+        <form action="game_search_ok.php" method="GET">
             <fieldset>
                 <select name="search_option">
                     <option value="name">        게임 이름</option>
