@@ -8,7 +8,7 @@
     <body>
         <h1> 도서 검색 </h1>
         <div style="text-align: center;">
-            <form action="main_search_ok.php" method="POST">
+            <form action="main_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="name">      도서명 </option>
