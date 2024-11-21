@@ -8,7 +8,7 @@
     <body>
         <h1> Search Foods </h1>
         <div style="text=align: center;">
-            <form action="main_search_ok.php" method="POST">
+            <form action="main_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="name"> food name </option>
