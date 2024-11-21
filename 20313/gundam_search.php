@@ -8,7 +8,7 @@
     <body>
         <h1> 프라모델 검색 </h1>
         <div style="text-align: center;">
-            <form action="gundam_search_ok.php" method="POST">
+            <form action="gundam_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="gundam_name">프라모델이름 </option>
