@@ -8,7 +8,7 @@
     <body>
         <h1>옷 검색</h1>
         <div style="text-allign: center;">
-            <from action="main_search_ok.php" method="GET">
+            <form action="store_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="prod_num"> 품번 </option>
@@ -20,7 +20,7 @@
                     <input type="text" name="search_word">
                     <input type="submit" value="검색">
                 </fieldset>
-            </from>
+            </form>
         </div>
     </body>
 </html>   
