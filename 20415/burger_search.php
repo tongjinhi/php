@@ -8,7 +8,7 @@
     <body>
         <h1> 버거 검색 </h1>
         <div style="text-aling: center;">
-            <form action="main_search_ok.php" method="GET">
+            <form action="burger_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
                         <option value="name"> 버거이름</option>
