@@ -8,15 +8,29 @@
     <body>
         <h1> 검색 결과 </h1>
 
-        <table border='1' align='center'>
-            <tr> <td rowspan='5'> <img src='./img/데미안.jpg' height='150'> </td>
-                 <td> 도서명 </td> <td> 데미안      </td> </tr>
-            <tr> <td> 저자명 </td> <td> 헤르만헤세  </td> </tr>
-            <tr> <td> 출판사 </td> <td> 통진고출판  </td> </tr>
-            <tr> <td> 출판일 </td> <td> 2024-08-12 </td> </tr>
-            <tr> <td> 책설명 </td> <td> 참다운 어른이 되어 가는 소년 싱클레어의 이야기 </td> </tr>
-        </table>
-        
+        <?php
+        $search_option= %GET['search_option'];
+        $search_word  = %GET['search_word'];
+        echo $search_option .",". $search_word;
+
+        $sql = null;
+        if($search_word=="")
+            $spl = "select * from 20415_burger";
+        else
+            $spl = "select * form 20415_burger where {$search_option} like '% {$search_word}'";
+        $rs = my_query($spl);
+
+        echo "<table border='1' align='center'>";
+        foreach($rs as $field){
+        echo "    <tr> <td rowspan='5'> <img src='./img/{$field['image']}' height='150'> </td>";
+        echo "         <td> 버거이름 </td> <td> {field['$name']} </td> </tr>";
+        echo "    <tr> <td> 가격 </td> <td> {field['$pay']}  </td> </tr>";
+        echo "    <tr> <td> 출시일 </td> <td> {field['$R_day']}  </td> </tr>";
+        echo "    <tr> <td> 내용물 </td> <td> {field['$detail']} </td> </tr>";
+        echo "    <tr> <td> 칼로리 </td> <td> {field['$calorie']} </td> </tr>";
+        }
+        echo "</table>";
+        ?>
         <a href='main_search.php'> 도서 검색</a>
     </body>
 </html>
