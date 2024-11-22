@@ -17,6 +17,6 @@
             <tr> <td> 컴퓨터 가격 </td> <td> 800000 </td> </tr>
         </table>
         
-        <a href='main_search.php'> 컴퓨터 사양 검색</a>
+        <a href='pc_search.php'> 컴퓨터 사양 검색</a>
     </body>
 </html>
