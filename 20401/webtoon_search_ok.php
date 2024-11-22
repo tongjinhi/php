@@ -7,14 +7,31 @@
     </head>
     <body>
         <h1> 검색 결과 </h1>
-        <table border='1' align='center'>
-            <tr> <td rowspan='5'> <img src='./img/이제 곧 죽습니다.jpg' height='150'> </td>
-                 <td> 제목 </td> <td> 이제 곧 죽습니다 </td> </tr>
-            <tr> <td> 작가 </td> <td> 이원식 </td> </tr>
-            <tr> <td> 장르 </td> <td> 판타지 </td> </tr>
-            <tr> <td> 연재 기간 </td> <td> 2019-04-18 </td> </tr>
-            <tr> <td> 연재 주기 </td> <td> 금요일 </td> </tr>
-        </table>
+
+        <?php
+        $search_option = $_GET['search_option'];
+        $search_word = $_GET['search_word'];
+        echo $search_option . "," . $search_word;
+
+        $sql = null;
+        if($search_word == "")
+            $sql = "select * from 20401_webtoon";
+        else
+            $sql = "select * from 20401_webtoon where ($search_option) like '$(search_word)$'";
+
+        $rs = my_query($sql);
+
+        echo "<table border='1' align='center'>";
+        foreach($rs as $field) {
+            echo "    <tr> <td rowspan='5'> <img src='./img/{$field['image']}' height='150'> </td>";
+            echo "         <td> 제목 </td> <td> {$field['title']} </td> </tr>";
+            echo "    <tr> <td> 작가 </td> <td> {$field['author']} </td> </tr>";
+            echo "    <tr> <td> 장르 </td> <td> {$field['genre']} </td> </tr>";
+            echo "    <tr> <td> 연재 기간 </td> <td> {$field['serial_period']} </td> </tr>";
+            echo "    <tr> <td> 연재 주기 </td> <td> {$field['serialization_cycle']} </td> </tr>";
+        }
+        echo "</table>";
+        ?>
         <a href='webtoon_search.php'> 웹툰 검색 </a>
     </body>
 </html>
