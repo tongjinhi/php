@@ -8,14 +8,32 @@
     <body>
         <h1> 검색 결과 </h1>
 
-        <table border='1' align='center'>
-            <tr> <td rowspan='5'> <img src='./img/zhzk.jpeg' height='150'> </td>
-                 <td> 주식명 </td> <td> 코카콜라      </td> </tr>
-            <tr> <td> 주식정보 </td> <td> 펩시를 이길 수 있을지? </td> </tr>
-            <tr> <td> 그래프 </td> <td> 반등좀 있음  </td> </tr>
-            <tr> <td> 주식차트 </td> <td> 이미지</td> </tr>
-            <tr> <td> 나라 </td> <td> 미국 </td> </tr>
-        </table>
+        <?php
+        $search_option = $_GET['search_option'];
+        $search_word = $_GET['search_word'];
+        echo $search_option. "," . $search_word;
+
+        $sql = null;
+        if($search_word == "")
+            $sql = "select * from 20407_stock";
+        else
+            $sql = "select * from 20407_stock where {$search_option} like '%{search_word}%";
+
+        $rs = my_query($sql);
+
+        echo "<table border ='1' align='center'>";
+        foreach($rs as $field) {
+
+        echo "  <table border='1' align='center'>   ";
+        echo "  <tr> <td rowspan='5'> <img src='./img/{$field['image']}' height='150'> </td>    ";
+        echo      " <td> 주식명 </td> <td> {$field['stock_name']} </td> </tr>   ";
+        echo "  <tr> <td> 주식정보 </td> <td> {$field['stock_information']} </td> </tr> ";
+        echo "  <tr> <td> 그래프 </td> <td> {$field['Graph']}  </td> </tr>  ";
+        echo "  <tr> <td> 주식차트 </td> <td> {$field['chart']} </td> </tr> ";
+        echo "  <tr> <td> 나라 </td> <td> {$field['country']} </td> </tr>   ";
+        }
+        echo "</table>";
+        ?>
         
         <a href='stock_search.php'> 주식 검색</a>
     </body>
