@@ -45,7 +45,7 @@ INSERT INTO `20307_official` (`name`, `type`, `rel_date`, `contents`, `price`, `
 ('anomaly', 'dlc', '2024-04-11', '미친 초월체 아르코테크가 만들어낸, 초현실적이고 기괴한 실체들을 만나보십시오. ...', 30, 'https://어노스팀링크.com', 'rimworld_anomalyimg.png'),
 ('biotech', 'dlc', '2022-10-21', '새로운 종족들을 만나고, 메카노이드를 직접 조종하고, 무엇보다 중요한 당신의 아이를 양육하십시오.', 30, 'https://바텍스팀링크.com', 'rimworld_biotechimg.png'),
 ('combat extended', 'mod', '0000-00-00', '새로운 차원의 전투 경험을 만나보십시오. 각종 현실적인 무기와 방어, 엄폐시스템...', 0, 'https://CE스팀링크.com', 'rimworld_CEmod.png'),
-('RimWorld', '', '2013-11-04', 'AI스토리텔러와 함께하는 이야기 생성기', 35, 'https://steam.steampowered.com/store/Rimworld', './rimworld_textimg.png'),
+('RimWorld', 'main', '2013-11-04', 'AI스토리텔러와 함께하는 이야기 생성기', 35, 'https://steam.steampowered.com/store/Rimworld', './rimworld_textimg.png'),
 ('rotalty', 'dlc', '2020-02-24', '제국이 도착했습니다. 수천년전의 구식 체제와 최신식의 초능력을 갖춘 이들과 협력할지, 적대할지...', 20, 'https://로얄티스팀링크.com', 'rimworld_royaltyimg.png');
 
 --
