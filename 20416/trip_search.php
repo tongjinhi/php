@@ -17,7 +17,7 @@
                         <option value="hotel">근처호텔정보</option>
                         <option value="restaurant">근처 맛집</option>
                     </select>
-                    <input type="text" name="search_ward">
+                    <input type="text" name="search_word">
                     <input type="submit" value="검색">
                 </fieldset>
             </form>
