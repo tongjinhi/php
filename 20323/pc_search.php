@@ -10,7 +10,7 @@
         <div style = "text-align: center;">
             <form action = "pc_search_ok.php" method = "GET">
                 <fieldset>
-                    <select name = "seatch_option">
+                    <select name = "search_option">
                         <option value = "game">게임 이름</option>
                         <option value = "goal">목적</option>
                         <option value = "performance">성능</option>
