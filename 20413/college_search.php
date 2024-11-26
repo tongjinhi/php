@@ -13,7 +13,7 @@
                     <select name="search_option">
                         <option value = "school_name"> 학교 이름</option>
                         <option value = "dept_name"> 학과 이름</option>
-                        <option value = "competiton"> 경쟁률</option>
+                        <option value = "competition"> 경쟁률</option>
                         <option value = "job_rate"> 취업률</option>
                         <option value = "admissions"> 입학정원</option>
                     </select>
