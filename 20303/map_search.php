@@ -15,7 +15,7 @@
                         <option value="maker">       만든사람 </option>
                         <option value="version">     버젼 </option>
                         <option value="map_date">    만든 날짜 </option>
-                        <option value="discription">  설명 </option>
+                        <option value="description">  설명 </option>
                     </select>
                     <input type="text" name="search_word">
                     <input type="submit" value="검색">
