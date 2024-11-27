@@ -40,7 +40,7 @@ CREATE TABLE `20313_gundam` (
 -- 테이블의 덤프 데이터 `20313_gundam`
 --
 
-INSERT INTO `20313_gundam` (`gundam_name`, `lineup`, `tpye`, `meker`, `date`, `image`) VALUES
+INSERT INTO `20313_gundam` (`gundam_name`, `lineup`, `tpye`, `maker`, `date`, `image`) VALUES
 ('Rx-0 유니콘 건담', 'MGEX', '건담', '반다이', '2020-09-12', 'Rx_0_유니콘건담MGEX.jpg'),
 ('\r\n가면라이더키바', 'f.g.r', '애니프라', '반다이남코', '2020-07-31', '가면라이더키바.jpg'),
 ('\r\n스트라이크건담', 'EG', '건담', '반다이', '2020-07-31', '스트라이크건담EG.jpg'),
