@@ -11,11 +11,11 @@
             <form action="lc_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
-                        <option value="fcreture_name">     크리쳐 이름 </option>
-                        <option value="fkillability">    처치여부 </option>
-                        <option value="fattack"> 공격력 </option>
-                        <option value="fmax">    스폰수 </option>
-                        <option value="fbehavier">   행동 </option>
+                        <option value="creture_name">     크리쳐 이름 </option>
+                        <option value="killability">    처치여부 </option>
+                        <option value="attack"> 공격력 </option>
+                        <option value="max">    스폰수 </option>
+                        <option value="behavier">   행동 </option>
                     </select>
                     <input type="text" name="search_word">
                     <input type="submit" value="검색">
