@@ -31,7 +31,7 @@ CREATE TABLE `20313_gundam` (
   `gundam_name` char(20) NOT NULL,
   `lineup` char(10) NOT NULL,
   `tpye` char(20) DEFAULT NULL,
-  `meker` char(30) NOT NULL,
+  `maker` char(30) NOT NULL,
   `date` date DEFAULT NULL,
   `image` char(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
