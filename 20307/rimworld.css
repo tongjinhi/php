@@ -33,7 +33,7 @@ select {color: white;
 
 table {text-align: center;
     background-color: rgb(19, 23, 26);
-
+    margin: auto;
     color: white;
     }
 
