@@ -11,11 +11,11 @@
             <form action="stock_search_ok.php" method="GET">
                 <fieldset>
                     <select name="search_option">
-                        <option value="name"> 주식명 </option>
-                        <option value="writer"> 주식 정보 </option>
-                        <option value="publisher"> 그래프 </option>
-                        <option value="p_date"> 주식 차트 </option>
-                        <option value="summary"> 제조 나라 </option>
+                        <option value="stock_name"> 주식명 </option>
+                        <option value="stock_information"> 주식 정보 </option>
+                        <option value="Graph"> 그래프 </option>
+                        <option value="chart"> 주식 차트 </option>
+                        <option value="country"> 제조 나라 </option>
                     </select>
                     <input type="text" name="search_word">
                     <input type="submit" value="검색">
