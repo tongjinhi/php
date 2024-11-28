@@ -33,14 +33,14 @@ CREATE TABLE `20309_song` (
   `feat` char(20) NOT NULL,
   `range1` char(20) NOT NULL,
   `genre` char(20) NOT NULL,
-  `iamge` char(20) NOT NULL
+  `image` char(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- 테이블의 덤프 데이터 `20309_song`
 --
 
-INSERT INTO `20309_song` (`songtitle`, `artist`, `feat`, `range1`, `genre`, `iamge`) VALUES
+INSERT INTO `20309_song` (`songtitle`, `artist`, `feat`, `range1`, `genre`, `image`) VALUES
 ('Champion Love Song', 'Masiwei', 'RollFlash', '3분39초', '중국힙합', 'CL.jpg'),
 ('if i got money', '릴러말즈', '크루셜스타,창모', '4분13초', '힙합', 'igm.jpg'),
 ('ITX', '제너더질라', '창모', '3분10초', '힙합', 'ITX.jpg'),
