@@ -12,7 +12,7 @@
         $db_pass = $member['pass'];
         if($input_pass == $db_pass){
             echo "<script> alert('로그인 되었습니다.');
-                  location.href='../main_search.php'; </script>";
+                  location.href='../main.php'; </script>";
         } else {
             echo "<script> alert('아이디 또는 비밀번호를 확인하세요.');
             history.back();</script>";
