@@ -7,7 +7,7 @@
         $sql = my_query("select * from testmember 
                          where id = '".$_POST['userid']."'");
         $member = $sql->fetch_array();
-        echo $member['id'] . "," . $member['pass'];
+        #echo $member['id'] . "," . $member['pass'];
         
         $db_pass = $member['pass'];
         if($input_pass == $db_pass){
