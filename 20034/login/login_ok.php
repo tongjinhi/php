@@ -7,9 +7,8 @@
         $sql = my_query("select * from testmember 
                          where id = '".$_POST['userid']."'");
         $member = $sql->fetch_array();
-        #echo $member['id'] . "," . $member['pass'];
-        
         $hash_pw = $member['pass'];
+        
         if($password == $hash_pw){
             $_SESSION['userid'] = $member['id'];
             $_SESSION['userpw'] = $member['pass'];
