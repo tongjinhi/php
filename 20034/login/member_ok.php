@@ -1,7 +1,8 @@
 <?php
     include "../../db.php";
     $userid = $_POST['fid'];
-    $userpw = $_POST['fpass'];
+    //$userpw = $_POST['fpass'];
+    $userpw = password_hash($_POST['fpass'], PASSWORD_DEFAULT);
     $username = $_POST['fname'];
     $addr = $_POST['faddr'];
     $gender = $_POST['fgender'];
