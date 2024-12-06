@@ -10,7 +10,7 @@
         $hash_pw = $member['pass'];
         
         //if($password == $hash_pw){
-        if(password_verify($input_pass, $db_pass)){
+        if(password_verify($password, $hash_pw)){
             $_SESSION['userid'] = $member['id'];
             $_SESSION['userpw'] = $member['pass'];
             echo "<script> alert('로그인 되었습니다.');
