@@ -14,8 +14,8 @@
                             <input type="text" name="userid" id="id">
                         </td>
                         <td rowspan="2" align="center" width="100" >
-                            <button type="submit" id="btn" >로그인</button>
-                            <!--input type="button" value="확인후 로그인"-->
+                            <!--button type="submit" id="btn" >로그인</button-->
+                            <input type="button" value="확인후 로그인" onclick="check()">
                         </td>
                     </tr>
                     <tr>
@@ -31,5 +31,6 @@
                 </table>
             </form>
         </div>
+        <script src="input_check.js"></script>
     </body>
 </html>
